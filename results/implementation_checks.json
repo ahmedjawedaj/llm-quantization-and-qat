@@ -1,0 +1,18 @@
+{
+  "smoothquant_fp_equivalence": {
+    "max_abs_diff": 8.940696716308594e-08,
+    "mean_abs_diff": 6.028026078297444e-09,
+    "relative_output_error": 1.0495920577113793e-07,
+    "n_blocks": 4,
+    "logits_abs_max": 0.4607689082622528
+  },
+  "smoothquant_no_quant_max_E_Y": 1.1883344582267492e-14,
+  "integer_reference_max_abs_difference": {
+    "static": 1.9073486328125e-06,
+    "dynamic": 1.9073486328125e-06
+  },
+  "int4_roundtrip": true,
+  "STE_gradient": true,
+  "GPTQ_sequential_block_return": true,
+  "profiler_thread_join": true
+}
